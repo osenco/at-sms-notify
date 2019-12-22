@@ -1,11 +1,11 @@
 <?php
 
-namespace NotificationChannels\:channel_namespace;
+namespace NotificationChannels\AT;
 
-use NotificationChannels\:channel_namespace\Exceptions\CouldNotSendNotification;
+use NotificationChannels\AT\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
 
-class :service_nameChannel
+class ATNotifyChannel
 {
     public function __construct()
     {
